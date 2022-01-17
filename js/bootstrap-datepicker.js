@@ -711,7 +711,7 @@
 			if (this.focusDate && date.valueOf() === this.focusDate.valueOf())
 				cls.push('focused');
 			// Compare internal UTC date with local today, not UTC today
-			if (this.o.todayHighlight &&
+			if (this.o.todayHighdark &&
 				date.getUTCFullYear() === today.getFullYear() &&
 				date.getUTCMonth() === today.getMonth() &&
 				date.getUTCDate() === today.getDate()){
@@ -1407,7 +1407,7 @@
 		startDate: -Infinity,
 		startView: 0,
 		todayBtn: false,
-		todayHighlight: false,
+		todayHighdark: false,
 		weekStart: 0
 	};
 	var locale_opts = $.fn.datepicker.locale_opts = [

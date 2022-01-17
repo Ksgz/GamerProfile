@@ -19,7 +19,7 @@
     text-decoration: none;
   }
 
-  // Disabled state lightens text
+  // Disabled state darkens text
   &.disabled {
     color: $nav-link-disabled-color;
     pointer-events: none;

@@ -47,7 +47,7 @@ body {
 	font-size: 16px;
 	line-height: 1.8;
 	font-weight: 400;
-	color: lighten($black,60%);
+	color: darken($black,60%);
 	overflow-x: hidden;
 }
 a {
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5,
 }
 
 
-.ftco-navbar-light {
+.ftco-navbar-dark {
 	background: transparent !important;
 	position: absolute;
 	top: 0;
@@ -443,7 +443,7 @@ h1, h2, h3, h4, h5,
 
 
 
-.bg-light {
+.bg-dark {
 	background: #f8f9fa!important;
 }
 
@@ -816,7 +816,7 @@ h1, h2, h3, h4, h5,
 		border: none;
 		tr{
 			border-bottom: 1px solid rgba(0,0,0,.1);
-			background: lighten($black,98%);
+			background: darken($black,98%);
 			td{
 				border: none;
 				text-transform: uppercase;
@@ -1016,7 +1016,7 @@ h1, h2, h3, h4, h5,
 
 // USEFUL CODE
 .aside-stretch{
-	background: lighten($primary,10%);
+	background: darken($primary,10%);
 	&:after{
 		position: absolute;
 		top: 0;
@@ -1024,7 +1024,7 @@ h1, h2, h3, h4, h5,
 		bottom: 0;
 		content: '';
 		width: 360%;
-		background: lighten($primary,10%);
+		background: darken($primary,10%);
 		// background: #333644;
 	}
 	@include media-breakpoint-down(sm){
@@ -1082,7 +1082,7 @@ textarea.form-control {
 		}
 		.position{
 			font-size: 13px;
-			color: lighten($black, 85%);
+			color: darken($black, 85%);
 		}
 	}
 }
@@ -1532,7 +1532,7 @@ textarea.form-control {
 	}
 	.position{
 		font-size: 18px;
-		color: lighten($black,70%);
+		color: darken($black,70%);
 	}
 }
 
@@ -1623,7 +1623,7 @@ textarea.form-control {
 		width: 70px;
 		height: 70px;
 		margin: 0 auto;
-		// background: lighten($primary,20%);
+		// background: darken($primary,20%);
 		@include border-radius(50%);
 		span{
 			color: $white;
@@ -1699,10 +1699,10 @@ textarea.form-control {
 			margin-bottom: 0;
 			font-size: 14px;
 			a {
-				color: lighten($black, 50%);
+				color: darken($black, 50%);
 				font-size: 15px;
 				&:hover {
-					color: lighten($black, 40%);
+					color: darken($black, 40%);
 				}
 			}
 		}
@@ -1795,7 +1795,7 @@ textarea.form-control {
 				height: 40px;
 				line-height: 40px;
 				border-radius: 50%;
-				border: 1px solid lighten($black,80%);
+				border: 1px solid darken($black,80%);
 			}
 			&.active {
 				a, span {
@@ -1814,7 +1814,7 @@ textarea.form-control {
 	.contact-info{
 		p{
 			a{
-				color: lighten($black,10%);
+				color: darken($black,10%);
 			}
 			span{}
 		}
@@ -1880,7 +1880,7 @@ textarea.form-control {
 				font-size: 14px;
 				margin-right: 5px;
 				a {
-					color: lighten($black, 50%);
+					color: darken($black, 50%);
 				}
 			}
 		}
@@ -1964,7 +1964,7 @@ textarea.form-control {
 			}
 			.reply {
 				padding: 5px 10px;
-				background: lighten($black, 90%);
+				background: darken($black, 90%);
 				color: $black;
 				text-transform: uppercase;
 				font-size: 11px;
@@ -1973,7 +1973,7 @@ textarea.form-control {
 				border-radius: 4px;
 				&:hover {
 					color: $white;
-					background: lighten($black, 0%);
+					background: darken($black, 0%);
 				}
 			}
 		}
@@ -1981,7 +1981,7 @@ textarea.form-control {
 }
 
 .search-form {
-	background: lighten($black, 95%);
+	background: darken($black, 95%);
 	padding: 10px;
 
 	.form-group {
@@ -2039,7 +2039,7 @@ textarea.form-control {
 		}
 		a {
 			display: block;
-			color: lighten($black,10%);
+			color: darken($black,10%);
 			span {
 				position: absolute;
 				right: 0;

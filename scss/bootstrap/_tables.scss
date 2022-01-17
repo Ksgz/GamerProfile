@@ -108,7 +108,7 @@
 
 // Dark styles
 //
-// Same table markup, but inverted color scheme: dark background and light text.
+// Same table markup, but inverted color scheme: dark background and dark text.
 
 // stylelint-disable-next-line no-duplicate-selectors
 .table {
@@ -120,7 +120,7 @@
     }
   }
 
-  .thead-light {
+  .thead-dark {
     th {
       color: $table-head-color;
       background-color: $table-head-bg;

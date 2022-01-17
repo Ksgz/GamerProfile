@@ -741,7 +741,7 @@
 .icon-paste:before {
   content: "\f0ea";
 }
-.icon-lightbulb-o:before {
+.icon-darkbulb-o:before {
   content: "\f0eb";
 }
 .icon-exchange:before {
@@ -2478,7 +2478,7 @@
 .icon-airline_seat_recline_normal:before {
   content: "\e637";
 }
-.icon-flight:before {
+.icon-fdark:before {
   content: "\e539";
 }
 .icon-airplanemode_inactive:before {
@@ -3312,10 +3312,10 @@
 .icon-flash_on:before {
   content: "\e3e7";
 }
-.icon-flight_land:before {
+.icon-fdark_land:before {
   content: "\e904";
 }
-.icon-flight_takeoff:before {
+.icon-fdark_takeoff:before {
   content: "\e905";
 }
 .icon-flip:before {
@@ -3531,10 +3531,10 @@
 .icon-high_quality:before {
   content: "\e024";
 }
-.icon-highlight:before {
+.icon-highdark:before {
   content: "\e25f";
 }
-.icon-highlight_off:before {
+.icon-highdark_off:before {
   content: "\e888";
 }
 .icon-restore:before {
@@ -3693,7 +3693,7 @@
 .icon-library_music:before {
   content: "\e030";
 }
-.icon-lightbulb_outline:before {
+.icon-darkbulb_outline:before {
   content: "\e90f";
 }
 .icon-line_style:before {
